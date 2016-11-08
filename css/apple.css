@@ -1,0 +1,533 @@
+
+/*广告*/
+#guanggao{
+    width:100%;
+    height: 40px;
+    background: #444;
+}
+img{
+    border:0;
+}
+#guanggao .gg{
+    line-height: 40px;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    text-align: right;
+    max-width: 976px;
+    margin:0px auto;
+    color: #a8a8aa;
+    font-size: 12px;
+    font-family: "HanHei SC", PingHei, "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+/*菜单*/
+#nav1{
+    height: 44px;
+    font-family: "HanHei SC","PingHei","PingFang SC","STHeitiSC-Light","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background: rgba(0,0,0,0.8);
+    font-size: 18px;
+}
+.lis-box1{
+    height: 44px;
+    box-sizing: content-box;
+    margin: 0 auto;
+    pointer-events: auto;
+    letter-spacing: normal;
+    padding: 0 22px;
+}
+.lis-box1 li {
+    float: left;
+}
+.lis-box1 li a{
+    font-size: 16px;
+    text-align: center;
+    line-height: 44px;
+    width: 20px;
+    font-weight: 400;
+    color: #fff;
+    z-index: 1;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 44px;
+    white-space: nowrap;
+}
+#nav2{
+    height: 44px;
+    position: relative;
+    background: rgba(0,0,0,0.8);
+    font-size: 18px;
+}
+#nav2 a{
+    font-size: 16px;
+    text-align: center;
+    line-height: 44px;
+    width: 20px;
+    font-weight: 400;
+    color: #fff;
+    z-index: 1;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 44px;
+    white-space: nowrap;
+}
+#nav2 .daohang{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#nav2 .lis-box2{
+    position: absolute;
+    top:44px;
+    left: 0;
+    z-index: 999;
+    background: rgba(0,0,0,0.6);
+    display: none;
+
+}
+.xian{
+    display:block !important;
+}
+#nav2 .lis-box2 li{
+    height: 48px;
+    width:100%;
+    margin: 0  30px;
+}
+#nav2  .applogo{
+    position: absolute;
+    left: 50%;
+    top:0;
+    margin-left: -10px;
+}
+#nav2 .gwd{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+/*banner*/
+#banner{
+    height: 466px;
+    position: relative;
+    background: #000;
+        overflow: hidden;
+}
+#banner .ban{
+    height:100%;
+    background: url(../img/iPhone.jpg) no-repeat;
+    background-size: contain; 
+    background-position: bottom center;
+}
+#banner .content{
+    position: absolute;
+    left: 50%;
+    top:30px;
+    margin-left: -50px;
+    width:120px;
+    height: 96px; 
+    z-index: 10;
+}
+#banner .content h2{
+    display: block;
+}
+#banner .content .iplogo{
+    background: url(../img/iplogo.png);
+    width: 95px;
+    height: 24px;
+}
+#banner .content .zi{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 0.3em;
+}
+/*promos*/
+#promos{
+    width:100%;
+    height: auto;
+}
+#promos ul{
+    width:100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#promos ul.box1 .pic1{
+    background: url(../img/ban11.jpg);
+        background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#promos ul.box1 .pic2{
+    background: url(../img/ban21.jpg);
+        background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#promos ul.box1 .pic3{
+    background: url(../img/ban31.jpg);
+        background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#promos ul.box1 .pic4{
+    background: url(../img/ban41.jpg);
+        background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#promos ul.box2 .pic1{
+    background: url(../img/ban12.jpg);
+        background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#promos ul.box2 .pic2{
+    background: url(../img/ban22.jpg);
+        background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#promos ul.box2 .pic3{
+    background: url(../img/ban32.jpg);
+        background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#promos ul.box2 .pic4{
+    background: url(../img/ban42.jpg);
+        background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#promos ul.box li{
+    float: left;
+   height: 200px;
+
+}
+/*页脚*/
+#foot{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: normal;
+    background-color: #f2f2f2;
+    color: #666;
+
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+#tishi{
+    border-bottom: 1px solid #e3e3e3;
+    color: #999;
+    /*width:980px;*/
+    height: 20px;
+    padding: 16px 0 11px;
+    margin: 0 auto;
+}
+#tishi span{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+#news1{
+    /*width:1024px;*/
+    height: 220px;
+    margin: 20px auto;
+}
+#news1 .new{
+    float: left;
+    /*width:196px;*/
+}
+#news1 .new li{
+    height: 20px;
+}
+#news1 .new1{
+    height:180px;
+} 
+#news1 .new2{
+    height:220px;
+} 
+#news1 .new3{
+    height:70px;
+} 
+#news1 .new4{
+    height:70px;
+} 
+#news1 .new5{
+    height:100px;
+} 
+#news1 .new6{
+    height:100px;
+} 
+#news1 .new7{
+    height:120px;
+} 
+/**/
+
+
+#news2{
+    width:100%;
+    height: 100%;
+}
+#news2 .xinxi{
+    width:100%;
+    height: auto;
+    border-bottom:1px solid #666;
+    overflow: hidden;
+}
+#news2 .xinxi h3{
+    display: block;
+    height: 35px;
+    line-height: 35px;
+}
+#news2 .xinxi .new{
+    display: none;
+}
+#news2 .xinxi .new li{
+    height: 35px;
+    width:100%;
+}
+.new li a{
+    color: #666;
+}
+.new li a:hover{
+    text-decoration: underline;
+}
+/**/
+#footer{
+    height: auto;
+}
+
+#footer .shop{
+    /*width:980px;*/
+    height: 26px;
+    margin: 6px auto;
+    color: #999;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e3e3e3;
+}
+#footer .shop a{
+    color: blue;
+}
+#footer .legal{
+    /*width:980px;*/
+    height: 20px;
+    margin: 6px auto;
+    color: #999;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e3e3e3;
+}
+#footer .legal .copyright{
+    /*width:207px;*/
+    margin-right: 26px;
+    float: left;
+    font-size: 10px;
+    color: #666
+}
+#footer .links{
+    float: left;
+    /*width:320px;*/
+}
+#footer .links li{
+    float: left;
+    /*width:50px;*/
+    border-right: 1px solid #d6d6d6;
+    padding: 0 6px;
+}
+#footer .links li a{
+    font-size: 10px;
+    color: #666;
+}
+#footer .jing{
+    /*width:980px;*/
+    height: 20px;
+    margin:0 auto;
+}
+#footer .jing a{
+    color: #999;
+}
+#footer a:hover{
+    color: #999;
+    text-decoration: underline;
+}
+
+
+
+/**/
+@media screen and (max-width:767px ){
+    #nav1{
+        display: none;
+    }
+    #nav2{
+        width:100%;
+    }
+    #nav2 .lis-box2{
+        width:10000%;
+    }
+    #banner{
+        height:350px;
+    }
+    #banner .ban{
+        width:100%;
+    }
+    #promos ul.box1{
+        display: none;
+    }
+    #promos ul.box2 li{
+        width:100%;
+
+    }
+    #tishi{
+        width:100%;
+    }
+    #news1{
+        display: none;
+    }
+
+    #news2{
+        width:100%;
+    }
+     #footer{
+        width:100%;
+    }
+/*    #footer .shop{
+        width:100%;
+    }
+    #footer .legal{
+        width:100%;
+        height: auto;
+    }
+    #footer .legal .copyright{
+        width:100%;
+    }
+     #footer .legal .links{
+        width:50%;
+    }
+     #footer .legal .links li{
+        width:16%;
+    }*/
+}
+@media screen and (min-width: 768px) and (max-width:1024px ){
+    #nav2{
+        display: none;
+    }
+    #nav1{
+        width:100%;
+    }
+    #nav1 li{
+        width:11.11%;
+    }
+    #banner .ban{
+        width:100%;
+    }
+    #promos ul.box1{
+        display: none;
+    }
+    #promos ul.box2 li{
+        width:50%;
+
+    }
+    #news1{
+        width:100%;
+    }
+    #news1 .new{
+        width:16%;
+    }
+    #news1 .new li{
+        width:100%;
+    }
+    #news2{
+        display: none;
+    }
+    #tishi{
+        width:100%;
+        margin: 0 auto;
+    }
+    #footer{
+        width:100%;
+    }
+/*    #footer .shop{
+        width:100%;
+    }
+    #footer .legal{
+        width:100%;
+    }
+    #footer .legal .copyright{
+        width:100%;
+    }
+     #footer .legal .links{
+        width:80%;
+    }
+     #footer .legal .links li{
+        width:16%;
+    }*/
+/*    #footer .jing{
+        width:80%;
+    }*/
+}
+@media screen and (min-width: 1024px){
+    #nav2{
+        display: none;
+    }
+    #nav1{
+        width:100%;
+    }
+    #nav1 .lis-box1{
+        width:1024px;
+        margin: 0 auto;
+    }
+    #nav1 li{
+        width:11.11%;
+    }
+    #banner .ban{
+        width:100%;
+    }
+    #promos ul.box2{
+        display: none;
+    }
+    #promos ul.box1 li{
+        width:25%;
+
+    }
+    #tishi{
+        width:1024px;
+        margin: 0 auto;
+        padding-left: 30px;
+    }
+    #news1{
+        width:1024px;
+        margin:0 auto;
+        padding-left: 30px;
+    }
+    #news1 ul{
+        width:16%;
+    }
+    #news2{
+        display: none;
+    }
+    #footer{
+        width:1024px;
+        margin:0 auto;
+        padding-left: 30px;
+    }
+    #footer .shop{
+        width:1024px;
+    }
+    #footer .legal{
+        width:1024px;
+    }
+    #footer .legal .copyright{
+        width:21%;
+    }
+     #footer .legal .links{
+        width:32%;
+    }
+     #footer .legal .links li{
+        width:16%;
+    }
+    #footer .jing{
+        width:1024px;
+    }
+}
